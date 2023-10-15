@@ -11,7 +11,7 @@ Scripts:
   backup file in the user's home directory in the format: `<repo-name>_<date>-<branch_name>.tar.xz`.
   Usable for https://xkcd.com/1597/.
 
-  Requires installed packages: `git' 'xz`
+  Requires installed packages: `git` `xz`
 
 * **raid_audbile_check.sh**: audible check if Linux Software RAID is not degraded. If any of the
   MD RAID arrays are degraded, it will play a warning tone sequence trough the PC speaker that is
