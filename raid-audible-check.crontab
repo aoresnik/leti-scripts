@@ -1,0 +1,6 @@
+# Beep warning sequence trough built-in PC speaker every 5 minutes if RAID failure is detected
+# m  h  dom mon dow   command
+*/5  *    *   *   *    /opt/leti-scripts/raid_audbile_check.sh
+
+# Enable to play audbility check beeps trough built-in PC speaker every saturday
+#0   12    *   *   6    /opt/leti-scripts/raid_beep_check.sh
