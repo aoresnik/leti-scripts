@@ -31,3 +31,16 @@ Scripts:
   utility requires root privileges.
 
   Requires installed packages: `mdadm` `beep`
+
+* **docker_check_ratelimit.sh**: Checks with Docker Hub what is the current docker pull quota
+  remaining and prints it in the form:
+
+  ```
+  Docker hub limit for this outgoing IP (192.0.2.123): remaining 90 of total 100
+  ```
+
+  Based on examples in 	https://www.docker.com/blog/checking-your-current-docker-pull-rate-limits-and-status/
+  and https://stackoverflow.com/a/64738108.
+
+  Requires installed packages: `curl` `gawk`
+  
